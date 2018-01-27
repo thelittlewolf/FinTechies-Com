@@ -2434,6 +2434,39 @@
 					display: none;
 				}
 
+
+
+
+
+				#Home #Home_Nav {
+					font-weight: 600;
+				}
+
+					#Home #Home_Nav:before {
+						-moz-transform: rotateZ(45deg);
+						-webkit-transform: rotateZ(45deg);
+						-ms-transform: rotateZ(45deg);
+						transform: rotateZ(45deg);
+						width: 0.75em;
+						height: 0.75em;
+						content: '';
+						display: block;
+						position: absolute;
+						bottom: -0.5em;
+						left: 50%;
+						margin-left: -0.375em;
+						background-color: #37c0fb;
+						background-image: url("images/bg01.png");
+					}
+
+					#Home #Home_Nav a {
+						color: #fff;
+					}
+
+				#Home #Home_Nav.active:before {
+					opacity: 0;
+				}
+
 /* Dropotron */
 
 	.dropotron {
