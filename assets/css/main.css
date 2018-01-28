@@ -2438,11 +2438,11 @@
 
 
 
-				#Home #Home_Nav {
+				#Home #Home_Nav, #Left-Sidebar #Left-Sidebar_Nav {
 					font-weight: 600;
 				}
 
-					#Home #Home_Nav:before {
+					#Home #Home_Nav:before, #Left-Sidebar #Left-Sidebar_Nav:before {
 						-moz-transform: rotateZ(45deg);
 						-webkit-transform: rotateZ(45deg);
 						-ms-transform: rotateZ(45deg);
@@ -2459,11 +2459,11 @@
 						background-image: url("images/bg01.png");
 					}
 
-					#Home #Home_Nav a {
+					#Home #Home_Nav a, #Left-Sidebar #Left-Sidebar_Nav a {
 						color: #fff;
 					}
 
-				#Home #Home_Nav.active:before {
+				#Home #Home_Nav.active:before, #Left-Sidebar #Left-Sidebar_Nav.active:before {
 					opacity: 0;
 				}
 
