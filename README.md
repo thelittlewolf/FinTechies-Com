@@ -1,10 +1,16 @@
 # FinTechies-Com
 
-h2.Command temporarily using to move site
-{code}cp -R -f ./../fintechies-com/ ./htdocs/{code}
+##Command temporarily using to move site
+```
+cp -R -f ./../fintechies-com/ ./htdocs/
+```
 
-h2.Command to build docker container
-{code}docker build -t fintechieswebsite .{code}
+##Command to build docker container
+```
+docker build -t fintechieswebsite .
+```
 
-h2.Command using to run the docker container
-{code}docker run -p 4000:80 fintechieswebsite{code}
+##Command using to run the docker container
+```
+docker run -p 4000:80 fintechieswebsite
+```
